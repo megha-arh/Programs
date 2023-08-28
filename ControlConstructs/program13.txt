@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		String num = scan.nextLine();
+        Vendingmachine.vendingMachine(num);
+			
+	}
+
+}
+
+public class Vendingmachine {
+
+	public static void vendingMachine(String x) {
+		switch(x)
+		{
+		case "P001":System.out.println("Unibic cookies");
+		break;
+		case "Poo2":System.out.println("Jeera");
+		break;
+		case "P003":System.out.println("yeppiee");
+		break;
+		}
+		
+	}
+
+}

@@ -1,0 +1,141 @@
+import java.util.Scanner;
+public class program {
+	public static void main(String[] args) {
+		
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter the number");
+	int num = scan.nextInt();
+	DivisableNumber.getNumber(num);
+	DivisableNumber.getNumber1(num);
+	DivisableNumber.getNumber2(num);
+	DivisableNumber.getNumber3(num);
+	DivisableNumber.getNumber4(num);
+	DivisableNumber.getNumber5(num);
+	DivisableNumber.getNumber6(num);
+	DivisableNumber.getprimeNumber(num);
+	DivisableNumber.getevenNumber(num);
+	DivisableNumber.getoddNumber(num);
+	DivisableNumber.getevenPrime(num);
+	DivisableNumber.getoddPrime(num);
+}
+}
+
+public class DivisableNumber {
+
+	public static void getNumber(int n) {
+		if(n>100)
+		{
+			System.out.println(n);
+		}
+		
+	}
+	public static void getNumber1(int n) {
+		for(int i=1; i<=n; i++)
+		{
+		if(i%2==0) 
+		{
+			System.out.println(i+" ");
+			
+		}
+	}
+}
+	public static void getNumber2(int n) {
+		for(int i=1; i<=n; i++)
+		{
+		if(i%3==0) 
+		{
+			System.out.println(i+" ");
+		}
+		}
+	}
+	public static void getNumber3(int n) {
+		for(int i=1; i<=n; i++)
+		{
+		if(i%3==0) 
+		{
+			System.out.println(i+" ");
+		}
+		}
+	}
+	public static void getNumber4(int n) {
+		for(int i=1; i<=n; i++)
+		{
+		if(i%5==0) 
+		{
+			System.out.println(i+" ");
+		}
+		}
+	}
+		public static void getNumber5(int n) {
+			for(int i=1; i<=n; i++)
+			{
+			if(i%2==0 && i%5==0) 
+			{
+				System.out.println(i+" ");
+			}
+			}
+		}
+		public static void getNumber6(int n) {
+			for(int i=1; i<=n; i++)
+			{
+			if(i%3==0 && i%5==0) 
+			{
+				System.out.println(i+" ");
+			}
+			}
+		}
+		public static void getprimeNumber(int n) {
+			for(int i=1; i<=n; i++)
+			{
+				int count=0;
+				for(int j=2; j>=i; j++)
+				{
+					if(i%j==0)
+					{
+						count++;
+					}
+				}
+				if(count==1)
+				{
+					System.out.println(i+ " ");
+				}
+			}
+		}
+		public static void getevenNumber(int n) {
+		for(int i=1; i<=n; i++)
+		{
+		if(i%2==0) 
+		{
+			System.out.println(i+" ");
+		}
+		}
+	}
+		public static void getoddNumber(int n) {
+			for(int i=1; i<=n; i++)
+			{
+			if(i%3==0) 
+			{
+				System.out.println(i+" ");
+			}
+			}
+		}
+		public static void getevenPrime(int n) {
+			for(int i=1; i<=n; i++)
+			{
+			if(i%2==0) 
+			{
+				System.out.println(i+" ");
+			}
+			}
+		}
+		public static void getoddPrime(int n) {
+			for(int i=1; i<=n; i++)
+			{
+			if(i%3==0) 
+			{
+				System.out.println(i+" ");
+			}
+		
+		
+			
+			

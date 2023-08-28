@@ -1,0 +1,21 @@
+public class Program 
+{
+	public String display()
+	{
+		return "Inside display";
+	}
+}
+class Display
+{
+	public static void main(String[] args)
+	{
+		Program P = new Program();
+		System.out.println(display());
+	}
+
+	private static char[] display() {
+		
+		return null;
+	}
+
+}

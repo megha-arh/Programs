@@ -1,0 +1,10 @@
+
+public class Boolean {
+     public static void main(String[] args) {
+    	 boolean isPlaced=false;
+    	 System.out.println("The value of isPlaced is "+isPlaced);
+    	 boolean isMarried=true;
+    	 System.out.println("The value of isMarried is "+isMarried);
+
+     }
+}

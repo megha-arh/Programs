@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the size of an array");
+		int size = scan.nextInt();
+		int [] arr = new int [size];
+		System.out.println("Enter the elements to be stored");
+		for(int i=0;i<=arr.length-1;i++)
+		{
+			arr[i] = scan.nextInt();
+		}
+		System.out.println("Enter the elements to be searched");
+		
+			int ele = scan.nextInt();
+		
+	System.out.println(Search.linearSearch(arr, ele));
+	
+	
+	
+
+	}}
+
+
+public class Search {
+
+
+public static String linearSearch(int[]arr, int ele) {
+		for(int i=0; i<=arr.length-1;i++)
+		{
+			if(ele==arr[i])
+			{
+		return("ele " + ele + " is found at index " + arr[i]);	
+		}
+		}
+		return("ele " + ele + " is not found");
+		}
+
+	}
+
+

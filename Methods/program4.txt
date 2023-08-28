@@ -1,0 +1,19 @@
+
+
+public class HalveIt {
+
+	public static void main(String[] args) {
+		float res = (float) halveTheNumber(150.00);
+		System.out.println(res);
+
+	}
+	
+	 public static double halveTheNumber(double num) {
+		 double num1 = 150.00/2;
+		 return num1;
+		 
+		 
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+
+
+
+
+public class journeyCalculator {
+        public double CalculateDistance(Double speed, Double time)
+		{
+			double Distance = speed*time;
+			return Distance;
+		}
+		public static  void main(String[] args)
+		{
+			double speed,time;
+			journeyCalculator journeyCalculator = new journeyCalculator();
+			System.out.println(journeyCalculator.CalculateDistance(60.0, 1.5));
+		}
+		
+}
+		
+		
+			   
+	
+	
+	
+	
+
+	
+
+

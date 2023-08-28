@@ -1,0 +1,73 @@
+
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter row and columns of matrix1 and matrix2");
+		int row = scan.nextInt();
+		int col = scan.nextInt();
+		
+		int [][] matrix1 = new int[row][col];
+		int [][] matrix2 = new int[row][col];
+		int [][] resultMatrix = new int[row][col];
+		System.out.println("Enter element to be stored in matrix1");
+		Matrix1 m = new Matrix1();
+		for(int i=0;i<=matrix1.length-1;i++)
+			
+		{
+			for(int j=0;j<=matrix1[i].length-1;j++)
+			{
+				
+				matrix1[i][j] =scan.nextInt();
+			}
+				
+				
+			}
+		
+		
+		System.out.println("Enter element to be stored in matrix2");
+		
+		
+		for(int i=0;i<=matrix2.length-1;i++)
+		
+		{
+			for(int j=0;j<=matrix2[i].length-1;j++)
+			{
+				
+				matrix2[i][j] =scan.nextInt();
+			}
+				
+				
+			}
+	
+		for(int i=0;i<=resultMatrix.length-1;i++)
+			
+		{
+			for(int j=0;j<=resultMatrix[i].length-1;j++)	
+			{
+				
+					resultMatrix[i][j] = matrix1[i][j] - matrix2[i][j];
+				}
+			}
+		for(int i=0;i<=resultMatrix.length-1;i++)
+			
+		{
+			for(int j=0;j<=resultMatrix[i].length-1;j++)	
+			{
+				
+					System.out.print(resultMatrix[i][j] + " ");
+				}
+			System.out.println();
+			}	
+		}
+		
+		
+		
+	}		
+			
+			
+		
+	

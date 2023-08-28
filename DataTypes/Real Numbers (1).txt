@@ -1,0 +1,11 @@
+
+public class RealNumbers {
+	public static void main(String[] args) {
+		float x=23.47f;
+		System.out.println("The value of x is "+x);
+		double y=347.678965321;
+		System.out.println("The value of y is "+y);
+
+	}
+
+}

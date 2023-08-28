@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class program{
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num = scan.nextInt();
+		acceptInteger.acceptInteger(num);	
+		}
+
+}
+
+public class acceptInteger {
+
+	public static void acceptInteger(int x) {
+		if(x<0)
+		{
+			System.out.println("Negetive");
+		}
+		else if(x>0)
+		{
+			System.out.println("Poitive");
+		}
+		else 
+		{
+			
+		}
+		System.out.println("Zero");
+		
+		
+	}
+
+}

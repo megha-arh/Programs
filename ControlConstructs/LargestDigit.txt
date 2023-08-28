@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the n value");
+		int n = scan.nextInt();
+		LargestDigit L = new LargestDigit();
+		L.display(n);
+		
+		
+
+	}
+
+}
+
+
+public class LargestDigit {
+
+	 
+		void display(int num)
+		{
+			int max=0;
+			int rem = 0;
+			while(num!=0)
+			{
+				rem = num%10;
+				if(max<rem)
+				{
+					max=rem;
+					
+				}
+				num=num/10;
+				
+			}
+			System.out.println(max + " is a Largestdigit");	
+		}
+	}
+
+

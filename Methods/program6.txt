@@ -1,0 +1,16 @@
+
+
+public class FinanceCalculator {
+
+	public static void main(String[] args) {
+		float res= (float)CalculateSimpleIntrest(1000.0,0.05,2.0);
+		System.out.println("the SimpleIntrest"+ res);
+
+	}
+
+	private static double CalculateSimpleIntrest(double p, double r, double  t) {
+		double i;
+	   return i = p * r * t;
+	}
+
+}

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the n value");
+		int n = scan.nextInt();
+		Palindrom p = new Palindrom();
+		p.display(n);
+	}
+
+}
+
+
+public class Palindrom {
+
+	void display(int n)
+	{
+		int temp=n;
+		int revnum = 0;
+		while(n!=0)
+		{
+		int res= n%10;
+		revnum = revnum*10+res;
+		n= n/10;
+		}
+		if(revnum==temp)
+		{
+			System.out.println(temp + " is Palindrome.");
+		}
+		else
+		{
+			System.out.println(temp + " is not Palindrome.");	
+		}
+
+	}
+
+}

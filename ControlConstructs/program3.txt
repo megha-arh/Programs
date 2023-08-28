@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int age= scan.nextInt();
+		Adultage.adultAge(age);
+
+	}
+
+}
+
+public class Adultage {
+	public static void adultAge(int y)
+	{
+		if(y>21)
+		{
+			System.out.println("Adult");
+		}
+	}
+
+	
+		
+	}
+
+

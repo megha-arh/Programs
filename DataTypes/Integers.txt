@@ -1,0 +1,15 @@
+
+public class Integers {
+	public static void main(String[] args)
+	{
+		byte age=22;
+		System.out.println("The age is "+age);
+		short year=2023;
+		System.out.println("The year is "+year);
+		int salary=50000;
+		System.out.println("The salary is "+salary);
+                long population=92345879512332l;
+		System.out.println("The population is "+population);
+    }
+
+}

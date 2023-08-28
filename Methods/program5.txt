@@ -1,0 +1,17 @@
+
+
+public class TimeConverter {
+     public static void main(String[] args)
+	{
+		double res = (double) convertToHours(90.0);
+		System.out.println(res);
+		
+	}
+	public static double convertToHours(double minutes) {
+		double hours = 90.0/60.0;
+		return hours;
+		
+	}
+	
+
+}

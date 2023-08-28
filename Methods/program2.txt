@@ -1,0 +1,21 @@
+
+
+public class PlotArea {
+	public static void main(String[] args) 
+	{
+		double res = calculatePlotArea1(6);
+		double res1 = calculatePlotArea1(6.5);
+		System.out.println(res);
+		System.out.println(res1);
+	}
+	
+	public static double calculatePlotArea1(double sideLength)
+	{
+		return sideLength*sideLength;
+	}
+	
+    public static double calculatePlotArea(double sideLength)
+    {
+        return sideLength*sideLength;	
+    }
+}

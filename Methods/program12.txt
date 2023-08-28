@@ -1,0 +1,16 @@
+
+
+public class AverageOfNumbers {
+public static double calculateAverage(int num1, int num2, int num3, int num4, int num5, int num6, int num7, int num8)
+		{ 
+		
+			double res =(num1+num2+num3+num4+num5+num6+num7+num8)/8;
+			return res;
+		}
+public static void main(String[] args) {
+	double res = calculateAverage(85,79,91,76,88,95,80,85);
+	System.out.println(+res);
+		
+	}
+
+}

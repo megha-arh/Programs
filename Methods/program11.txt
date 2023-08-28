@@ -1,0 +1,15 @@
+
+public  class SquareOfNumber {
+	public static int squareNumber(int num1)
+	{
+		
+		int res=num1*num1;
+		return res;
+	}
+	public static void main(String[]args) {
+		int res = squareNumber(7);
+		System.out.println(+res);
+	}
+	
+
+}

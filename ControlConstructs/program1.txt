@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		//Creating Scanner class object to take user input
+		Scanner scan = new Scanner(System.in);
+		//taking the user input
+		System.out.println("Enter the number");
+		int num = scan.nextInt();
+		PositiveNumber.positivenumber(num);
+	}
+}
+
+	
+	
+
+public class PositiveNumber {
+
+	public static void positivenumber(int a) {
+		{
+		 if(a%2==0)
+			 
+		 {
+			 System.out.println("Positive Number");
+		 }
+		 
+		}
+}
+}

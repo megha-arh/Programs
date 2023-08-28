@@ -1,0 +1,17 @@
+
+
+public abstract class HeightConverter {
+	public static double convertInchesToFeet(double inches)
+	{
+		return inches*0.0833;
+		
+	}
+	public static void main(String[] args)
+     {
+		double res = (double) convertInchesToFeet(72.0);
+	
+	    System.out.println(res);
+	}
+	
+       
+}

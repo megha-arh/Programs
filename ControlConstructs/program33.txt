@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Program {
+	public static void main(String[] args) {
+
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter the first  name");
+	String name = scan.next();
+	switch(name)
+	{
+	case "Ajay" : System.out.println(name +" Delhi");
+	        break;
+	        
+	case "Arjun": System.out.println(name +" pune ");
+            break;
+	case "Ankit": System.out.println(name +" Banglore");
+            break;
+	case "Akash": System.out.println(name + "Hydrabad");
+	        break;
+	
+	default: System.out.println(name + "India");
+   }
+
+}
+	}

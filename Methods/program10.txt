@@ -1,0 +1,16 @@
+
+
+public class CubeNumber {
+
+	public static int cubeNumber(int num) {
+		int res = num*num*num;
+		return res;
+    }
+	public static void main(String[] args)
+	{
+		int res = cubeNumber(3);
+		System.out.println(+res);
+				
+	}
+
+}

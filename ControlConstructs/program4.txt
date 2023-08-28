@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num = scan.nextInt();
+	    PurchaseDiscount.purchaseDiscout(num);
+
+	}
+
+}
+
+public class PurchaseDiscount {
+
+	public static void purchaseDiscout( int $dis) {
+	
+		if($dis>100)
+		{
+		 System.out.println("Discount Applicable");	
+		}
+		
+		
+	}
+
+}

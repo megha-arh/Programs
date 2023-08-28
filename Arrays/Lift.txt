@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) 
+	{
+		double [] arr = new double[10];
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Person Weight");
+		int sum=0;
+		for(int i=0;i<=arr.length-1; i++)
+		{
+			
+			arr[i] = scan.nextDouble();
+			sum += arr[i];
+		}
+		
+		if(sum>800)
+		{
+			System.out.println("Lift will not work");
+		}
+		else
+		{
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the side");
+		int num = scan.nextInt();
+		PolygonSides.polygonSides(num);
+			
+	}
+
+}
+
+public class PolygonSides {
+
+	public static void polygonSides(int x) {
+		switch(x)
+		{
+		case 3:System.out.println("Traingle");
+		break;
+		case 4:System.out.println("Qudrilateral");
+		break;
+		case 5:System.out.println("Polygon");
+		break;
+		
+		}
+		
+	}
+
+	
+	}
+
+

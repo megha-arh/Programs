@@ -1,0 +1,15 @@
+
+
+public class DoubleNum {
+	public static int doubleTheNUmber(int num)
+	{
+		int num1=num*2;
+		return num1;
+	}
+	public static void name(String[]args) {
+		int res = doubleTheNUmber(15);
+		System.out.println(+res);
+
+	}
+	
+}

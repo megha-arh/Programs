@@ -1,0 +1,14 @@
+
+
+public class PlanetExplorer {
+	public static void main(String[]args)
+	 {
+		float res = (float)calculateSurfaceArea(3.0);
+        System.out.println ("the surface area of sphere"+ res);
+	}
+	public static double calculateSurfaceArea(double radius) {
+		double A;
+		return A = 4*3.142*radius*radius;
+	}
+	
+}

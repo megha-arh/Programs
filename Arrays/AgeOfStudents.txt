@@ -1,0 +1,60 @@
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number of Schools");
+		int school = scan.nextInt();
+				System.out.println("Enter the number of classrooms");
+		int classroom = scan.nextInt();
+		
+		System.out.println("Enter the number of Students");
+		int students = scan.nextInt();
+		int [][][] arr = new int [2] [3][5];
+			
+		System.out.println("The age of the students are");
+			
+		
+		
+		for(int i=0; i<=1; i++)
+		{
+			
+			for(int j=0; j<=2; j++)
+			{
+				
+				for(int k=0;k<=4; k++)
+					{
+					System.out.print(" Enter the age of school " + (i+1) + " of classroom " + (j+1) + " of student " + (k+1)  );
+					arr[i] [j][k] = scan.nextInt();
+					}
+				
+				}
+			
+			
+		}
+		for(int i=0; i<=1; i++)
+		{
+			
+			for(int j=0; j<=2; j++)
+			{
+				
+				for(int k=0;k<=4; k++)
+					{
+					System.out.println(" The age of school " + (i+1) + " of classroom " + (j+1) + " of student " + (k+1) + " is " + arr[i][j][k] );
+					
+					}
+				
+				}
+			
+			
+		}
+	}
+
+}
+
+
+
+

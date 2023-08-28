@@ -1,0 +1,66 @@
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number of cities");
+		int block = scan.nextInt();
+		float [][][] arr = new float[block] [] [];
+			
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			System.out.println("Enter the number of companies in city " + (i+1) );
+			int row = scan.nextInt();
+			arr[i] = new float [row][];
+		}
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			{
+				for(int j=0; j<=arr[i].length-1; j++)
+				{
+			System.out.println("Enter the number of employees in city " + (i+1)+ " of company " + (j+1) );
+			int col = scan.nextInt();
+			arr[i][j]= new float[col];
+		}
+		
+		}	
+		}
+			
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			
+			for(int j=0; j<=arr[i].length-1; j++)
+			{
+				for(int k=0; k<=arr[i][j].length-1; k++)
+				{
+					System.out.print(" Enter the Salary of company " + (j+1) + " of employee " + (k+1)+ " in city " + (i+1) );
+					
+					arr[i] [j] [k]= scan.nextFloat();	
+				}
+				
+			}
+			
+			
+		}
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			for(int j=0; j<=arr[i].length-1; j++)
+			{
+				for(int k=0; k<=arr[i][j].length-1; k++)
+				{
+					System.out.println("The Salary of company " + (j+1) + " of employee " + (k+1)+ " in city " + (i+1)+ " is " + arr[i] [j] [k] );
+					
+					
+				}
+				
+			}
+		}
+	}
+
+}
+
+
+

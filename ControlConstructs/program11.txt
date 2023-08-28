@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num = scan.nextInt();
+		PeopleAge.peoplAage(num);
+		
+	}
+
+}
+
+public class PeopleAge {
+
+	public static void peoplAage(int num) {
+		if(num>=0 && num<=12)
+		{
+			System.out.println("Child");
+		}
+		else if(num>=13 && num<=19)
+		{
+			System.out.println("Teen");
+		}
+		else if(num>=20 && num<=59);
+		{
+			System.out.println("Adult");
+		}
+		else(num>=60)
+		{
+			System.out.println("Senior");
+		}
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class Characters {
+	public static void main(String[] args) {
+		char grade='A';
+		System.out.println("The grade is "+grade);
+        char option='a';
+		System.out.println("The option is "+option);
+
+      }
+}

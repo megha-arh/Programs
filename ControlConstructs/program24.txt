@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int a = scan.nextInt();
+		Natural.getNatural(a);
+      
+	}
+
+}
+
+public class Natural {
+
+	public static void getNatural(int n) {
+		int sum=0;
+		for(int i=1; i<=n; i++)
+			sum=sum+i;
+		{
+			System.out.println(sum);
+		}
+	}
+		
+
+}

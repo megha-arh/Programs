@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num = scan.nextInt();
+		StudentGrade.studentGrade(num);
+	    
+	}
+
+}
+
+public class StudentGrade {
+
+	public static void studentGrade(int num) {
+		if(num > 50)
+		{
+			System.out.println("Pass");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+			
+		
+	}
+
+}

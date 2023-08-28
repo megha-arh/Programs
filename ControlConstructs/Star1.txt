@@ -1,0 +1,48 @@
+//*****
+public class Program {
+
+	public static void main(String[] args)
+	{
+		
+		StarApp.getstar();
+			
+			
+		/*
+		int x=1;
+		while(x<=5)
+		{
+			System.out.print("*");
+			x++;
+		}
+		*/
+		/*
+		int x=1;
+		do
+		{
+			System.out.print("*");	
+			x++;
+		}
+		while(x<=5);
+		
+		*/	
+		}
+		
+
+	}
+
+
+
+
+public class StarApp {
+
+	public static void getstar()
+	{
+		
+		for(int x=1;x<=5;x++)
+		{
+				
+			System.out.print("*");
+		}
+	}
+
+}

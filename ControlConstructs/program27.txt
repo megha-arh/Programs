@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Program {
+	public  static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int marks = scan.nextInt();
+		total(marks);
+		if(marks>90)
+		{
+			System.out.println("Grade A");
+		}
+	}
+
+	public static int total(int a) 
+	{
+		return a;
+		
+	}
+
+}

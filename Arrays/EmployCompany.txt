@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number of companies");
+		int row = scan.nextInt();
+		System.out.println("Enter the number of Employees in each company");
+		int col = scan.nextInt();
+		String [][] arr = new String[row] [col];
+		
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			
+			for(int j=0; j<=arr[i].length-1; j++)
+			{
+				System.out.print(" Enter the name of employee " + (j+1) + " present in " + (i+1) + " company is ");
+				
+				arr[i] [j] = scan.next();
+			}
+			
+			
+		}
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			for(int j=0; j<=arr[i].length-1; j++)
+			{
+				System.out.println(" The name of employee " + (j+1) + " present in " + (i+1) + " company is " + arr[i][j]);
+			}
+		}
+	}
+
+}
+

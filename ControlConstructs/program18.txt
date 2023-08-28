@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class program {
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter the number");
+	int num = scan.nextInt();
+	Naturalnumber.getNatural(num);
+}
+
+public class Naturalnumber {
+
+	
+	public static void getNatural(int x) {
+		
+		if(x=(x*(x-1))%2)
+		{
+			System.out.println("Sum of first natural numbers" + x);
+		}
+	
+
+}
+}
+
